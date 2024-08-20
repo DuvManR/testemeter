@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rotate Message Example</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Your CSS file -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.13/lottie.min.js"></script>
+  <style>
+    /* Include the CSS directly for simplicity */
+    #rotate-message {
+      display: block;
+      background-color: #f8d7da;
+      color: #721c24;
+      padding: 10px;
+      text-align: center;
+      font-size: 16px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    /* @media (max-width: 767px) and (orientation: portrait) {
+      #rotate-message {
+        display: block;
+      }
+    } */
+  </style>
+</head>
+<body>
+  <div id="rotate-message">
+    <div id="lottie-animation" style="width: 100px; height: 100px; margin: auto;"></div>
+    <p>Please rotate your phone to landscape mode for better readability.</p>
+  </div>
+
+  <script>
+    // Initialize Lottie animation
+    var animation = lottie.loadAnimation({
+      container: document.getElementById('lottie-animation'), // The DOM element where the animation will be added
+      renderer: 'svg', // Render the animation as SVG
+      loop: true, // Loop the animation
+      autoplay: true, // Autoplay the animation
+      path: 'rotate-phone.json' // Replace with your Lottie JSON file URL
+    });
+
+
+    // Check if the animation is loaded successfully
+    animation.addEventListener('DOMLoaded', function() {
+        console.log('Lottie animation loaded successfully');
+    });
+
+    animation.addEventListener('error', function(e) {
+        console.error('Lottie animation error:', e);
+    });
+  </script>
+</body>
+</html>
