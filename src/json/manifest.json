@@ -1,7 +1,7 @@
 {
     "name": "SECHEMETER",
     "short_name": "SECHEMETER",
-    "start_url": "/",
+    "start_url": "/testemeter",
     "display": "standalone",
     "background_color": "#FFFFFF",
     "theme_color": "#000000",
