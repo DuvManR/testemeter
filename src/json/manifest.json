@@ -9,7 +9,7 @@
     "author": "DuvMan",
     "icons": [
       {
-        "src": "./src/img/default-uni.png",
+        "src": "../img/default-uni.png",
         "sizes": "720x720",
         "type": "image/png"
       }
