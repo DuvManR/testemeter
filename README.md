@@ -1,2 +1,2 @@
 # tests
-Tests ENV of SECHEMETER
+Tests Environment of SECHEMETER
