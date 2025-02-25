@@ -336,6 +336,8 @@ html {
 		width: 50% !important;
 		text-align: center !important;
 		text-align-last: center !important;
+		background-color: white !important;
+		color: black !important;
 		-webkit-appearance: none;
 		-moz-appearance: none;
 		appearance: none;
@@ -346,6 +348,8 @@ html {
 		width: 50% !important;
 		text-align: center !important;
 		text-align-last: center !important;
+		background-color: white !important;
+		color: black !important;
 		-webkit-appearance: none;
 		-moz-appearance: none;
 		appearance: none;
@@ -555,6 +559,8 @@ html {
 		width: 100% !important;
 		text-align: center !important;
 		text-align-last: center !important;
+		background-color: white !important;
+		color: black !important;
 		-webkit-appearance: none;
 		-moz-appearance: none;
 		appearance: none;
